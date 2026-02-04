@@ -1,0 +1,12 @@
+name: Second work flow
+on: workflow_dispatch
+jobs:
+  imprime:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Impresion
+        run: | 
+          echo "Primera linea"
+          echo "Segunda linea"
+          echo "Tercera linea"
+          echo "Cuarta linea"
